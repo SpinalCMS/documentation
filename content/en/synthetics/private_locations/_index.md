@@ -415,11 +415,11 @@ Because Datadog already integrates with Kubernetes and AWS, it is ready-made to 
 
 {{< /tabs >}}
 
-#### Set up health checks, liveness and readiness probes
+#### Set up health checks, liveness, and readiness probes
 
 Add a [health check][10] mechanism so your orchestrator can ensure the workers are running correctly.
 
-For readiness probes, you first need to enable private location status probes on port `8080` in your private location deployment. For more information, see [Advanced configuration][15].
+For readiness probes, you need to enable private location status probes on port `8080` in your private location deployment. For more information, see [Advanced configuration][15].
 
 {{< tabs >}}
 
